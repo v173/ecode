@@ -16,7 +16,7 @@ function sendRequest(requestType, url, sendValue) {
     return json;
 }
 
-var access_token = "dc6e3fb675b01660d6dcffc85cd70220";
+var access_token = "dc6e3ff675c01660d62cffc45cd70220";
 
 // 获取仓库具体路径下的内容
 var url = "https://gitee.com/api/v5/repos/v173/ecode/contents/src/1.txt?access_token=" + access_token;
